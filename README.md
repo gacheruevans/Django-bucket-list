@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/andela-gacheruevans/cp3-django-bucketlist.svg?branch=implement-tests)](https://travis-ci.org/andela-gacheruevans/cp3-django-bucketlist)
+[![Coverage Status](https://coveralls.io/repos/github/andela-gacheruevans/cp3-django-bucketlist/badge.svg?branch=implement-tests)](https://coveralls.io/github/andela-gacheruevans/cp3-django-bucketlist?branch=develop)
 # cp3-django-bucketlist
 
 This application helps you log and catalog all the stuff you want to accomplish before you expire.
