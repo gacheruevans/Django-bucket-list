@@ -66,6 +66,10 @@ docs/_build/
 # PyBuilder
 target/
 
+#Database
+*.DB_Base
+*.db
+
 # IPython Notebook
 .ipynb_checkpoints
 
