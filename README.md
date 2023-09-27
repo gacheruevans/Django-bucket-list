@@ -39,11 +39,26 @@ In this exercise I was required to create a Django + PostgreSQL based implementa
 | DELETE      				                                   | Deletes an existing resource            |
 | SEARCH                                                       | Searches for an existing resource       |
 
-##Installation and Running Project.
-1. Clone this repository: https://github.com/kylelaker/cp3-django-bucketlist.git
-```git clone https://github.com/kylelaker/cp3-django-bucketlist.git ```
-2. Navigate into your project directory (cd cp3-django-bucketlist).
-3. Install virtualenv using pip install --user virtualenv or sudo apt get python-virtualenv if on ubuntu linux machine, then create virtual environment by running command
-4. Install dependencies with pipenv install --dev .
-5. Run python manage.py migrate to create database tables, then run python manage.py createsuperuser to add admin credentials if needed.
-5. Run python manage.py runserver on terminal or use IDE's debugger if using Pycharm.
+## Installation and Running Project Instructioons.
+
+1. Clone this repository: git@github.com:gacheruevans/Django-bucket-list.git
+
+    * via SSH
+        git@github.com:gacheruevans/Django-bucket-list.git 
+
+2. Navigate into your project directory 
+
+        cd Django-bucket-list 
+    
+3. Install virtualenv using 
+   
+        pip install --user virtualenv 
+        or sudo apt get python-virtualenv if on ubuntu linux machine, then create virtual environment by running command
+    
+4. Install dependencies with 
+        pipenv install --dev
+
+        Run python manage.py migrate to create database tables, then run python manage.py createsuperuser to add admin credentials if needed.
+
+5. To run project 
+        Run python manage.py runserver on terminal or use IDE's debugger if using Pycharm.
