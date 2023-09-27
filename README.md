@@ -1,8 +1,8 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/gacheruevans/Django-bucket-list/tree/develop.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/gacheruevans/Django-bucket-list/tree/develop)
 
-# cp3-django-bucketlist
+# Django and React App - Bucket List
 
-This application helps you log and catalog all the stuff you want to accomplish before you expire.
+This application helps you log and catalog all the things you ever wanted to accomplish that are huge milestones before you expire.
 
 ## Task Description
 
