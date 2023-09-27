@@ -1,4 +1,5 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/gacheruevans/cp3-django-bucketlist/tree/develop.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/gacheruevans/cp3-django-bucketlist/tree/develop)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/gacheruevans/Django-bucket-list/tree/develop.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/gacheruevans/Django-bucket-list/tree/develop)
+
 # cp3-django-bucketlist
 
 This application helps you log and catalog all the stuff you want to accomplish before you expire.
