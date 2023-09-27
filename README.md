@@ -48,7 +48,7 @@ In this exercise I was required to create a Django + PostgreSQL based implementa
 
 2. Navigate into your project directory 
 
-        cd Django-bucket-list 
+        cd Django-bucket-list/bucketlist 
     
 3. Install virtualenv using 
    
