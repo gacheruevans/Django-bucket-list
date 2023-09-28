@@ -15,7 +15,7 @@ class UserView(generics.ListAPIView):
     serializer_class = UserSerializer
 
 
-class BucketListView(generics.CreateAPIView):
+class CreateBucketListView(generics.CreateAPIView):
     queryset = Bucketlist.objects.all()
     serializer_class = BucketlistSerializer
 

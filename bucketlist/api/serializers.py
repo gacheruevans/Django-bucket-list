@@ -5,7 +5,7 @@ from .models import User, Bucketlist, Item
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = '__all__'
+        fields = ('id', 'username', 'email', 'password', 'created_at')
 
     def create(self, validated_data):
         user = User.objects.create(**validated_data)
@@ -24,7 +24,7 @@ class BucketlistSerializer(serializers.ModelSerializer):
         return Bucketlist
 
     def update(self, instance, validated_data):
-        instance.name = validated_data.get('title', instance.name)
+        instance.title = validated_data.get('title', instance.title)
         instance.save()
         return instance
 
